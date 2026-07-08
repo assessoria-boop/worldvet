@@ -199,6 +199,9 @@
 
     .hero h1 span { color: var(--marca); }
 
+    .hero h1 .br-mobile { display: none; }
+    .hero h1 .br-desktop { display: inline; }
+
     .hero-sub {
       font-size: 20px;
       font-weight: 600;
@@ -594,6 +597,8 @@
 
       .hero { padding: 28px 20px 44px; }
       .hero h1 { font-size: 40px; letter-spacing: -1px; }
+      .hero h1 .br-mobile { display: inline; }
+      .hero h1 .br-desktop { display: none; }
       .hero-sub { font-size: 17px; }
       .hero-logo { width: 92px; height: 92px; }
       .hero-btns { max-width: 100%; }
@@ -685,7 +690,7 @@
       <img src="logo.webp" alt="Clínica World Vet" decoding="async" loading="eager" />
     </div>
     <p class="hero-clinica-nome">Clínica World Vet</p>
-    <h1><span>Clínica Veterinária</span><br />em Feira de Santana</h1>
+    <h1><span>Clínica Veterinária<br class="br-mobile" /> 24h</span><br class="br-desktop" /> em Feira de<br class="br-mobile" /> Santana</h1>
     <p class="hero-sub">Seu pet feliz e saudável novamente!</p>
     <div class="hero-btns">
       <a href="https://wa.me/557533018232?text=Ol%C3%A1%20encontrei%20voc%C3%AAs%20pelo%20Google%2C%20gostaria%20de%20atendimento." class="btn-wpp">
